@@ -9,14 +9,14 @@ namespace ZalikD
 
         public int X
         {
-            get => _x;
-            set => _x = value;
+            get { return _x; }
+            set { _x = value; }
         }
         
         public int Y
         {
-            get => _y;
-            set => _y = value;
+            get { return _y; }
+            set { _y = value; }
         }
 
         public Point(int x, int y)

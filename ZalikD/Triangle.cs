@@ -10,7 +10,7 @@ namespace ZalikD
 
         public double A
         {
-            get => pointA + pointB;
+            get { return pointA + pointB; }
             set
             {
                 if (value <= 0) throw new ArgumentOutOfRangeException(nameof(value));
@@ -20,7 +20,7 @@ namespace ZalikD
 
         public double B
         {
-            get => pointB + pointC;
+            get { return pointB + pointC; }
             set
             {
                 if (value <= 0) throw new ArgumentOutOfRangeException(nameof(value));
@@ -30,7 +30,7 @@ namespace ZalikD
 
         public double C
         {
-            get => pointC + pointA;
+            get { return pointC + pointA; }
             set
             {
                 if (value <= 0) throw new ArgumentOutOfRangeException(nameof(value));

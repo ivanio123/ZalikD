@@ -8,8 +8,8 @@ namespace ZalikD
 
         public double Radius
         {
-            get => _radius;
-            set => _radius = value;
+            get { return _radius; }
+            set { _radius = value; }
         }
 
         public Circle(double radius)
